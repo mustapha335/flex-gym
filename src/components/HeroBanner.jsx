@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
-import HeroBannerImage from "../assets/images/banner.png";
 
 const HeroBanner = () => {
   return (
@@ -11,7 +10,7 @@ const HeroBanner = () => {
       }}
       position='relative'
       p='20px'>
-      <Typography color='#FF2625' fontWeight='600' fontSize='26px'>
+      <Typography color='rgb(221, 25, 25)' fontWeight='600' fontSize='26px'>
         Fitness Club
       </Typography>
       <Typography
@@ -33,7 +32,7 @@ const HeroBanner = () => {
             textDecoration: "none",
             width: "200px",
             textAlign: "center",
-            background: "#FF2625",
+            background: "#b31818",
             padding: "14px",
             fontSize: "22px",
             textTransform: "none",
@@ -54,7 +53,7 @@ const HeroBanner = () => {
         Exercise
       </Typography>
       <img
-        src={HeroBannerImage}
+        src='https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
         alt='hero-banner'
         className='hero-banner-img'
       />
