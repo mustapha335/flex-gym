@@ -32,8 +32,9 @@ const Navbar = () => {
             style={{
               textDecoration: "none",
               color: "#3A1212",
-              borderBottom: "3px solid #b41313",
-            }}>
+              // borderBottom: "3px solid #b41313",
+            }}
+            className='Link'>
             Home
           </Link>
           <a
